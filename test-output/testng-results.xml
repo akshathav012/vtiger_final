@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[====db connection successful====]]>
+    </line>
+    <line>
+      <![CDATA[===Browser launch successful===]]>
+    </line>
+    <line>
+      <![CDATA[=====Login successful====]]>
+    </line>
+    <line>
+      <![CDATA[=====logout successful===]]>
+    </line>
+    <line>
+      <![CDATA[====browser close successful===]]>
+    </line>
+    <line>
+      <![CDATA[===Browser launch successful===]]>
+    </line>
+    <line>
+      <![CDATA[=====Login successful====]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTest-----Test script failed]]>
+    </line>
+    <line>
+      <![CDATA[=====logout successful===]]>
+    </line>
+    <line>
+      <![CDATA[====browser close successful===]]>
+    </line>
+    <line>
+      <![CDATA[====Database close successful===]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61425" started-at="2022-03-17T10:54:31 IST" finished-at="2022-03-17T10:55:32 IST">
+    <groups>
+      <group name="smokeSuite">
+        <method signature="CreateOrgTest.createOrgTest()[pri:0, instance:com.crm.OrganizationTests.CreateOrgTest@757942a1]" name="createOrgTest" class="com.crm.OrganizationTests.CreateOrgTest"/>
+      </group> <!-- smokeSuite -->
+      <group name="regressionSuite">
+        <method signature="CreateOrgwithIndustryTypeTest.createOrgwithIndustryTypeTest()[pri:0, instance:com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest@e720b71]" name="createOrgwithIndustryTypeTest" class="com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest"/>
+      </group> <!-- regressionSuite -->
+    </groups>
+    <test name="Test" duration-ms="61425" started-at="2022-03-17T10:54:31 IST" finished-at="2022-03-17T10:55:32 IST">
+      <class name="com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest">
+        <test-method status="PASS" signature="connectDataBase()[pri:0, instance:com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest@e720b71]" name="connectDataBase" is-config="true" duration-ms="13" started-at="2022-03-17T10:54:31 IST" finished-at="2022-03-17T10:54:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[====db connection successful====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectDataBase -->
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest@e720b71]" name="LaunchTheBrowser" is-config="true" duration-ms="11111" started-at="2022-03-17T10:54:31 IST" finished-at="2022-03-17T10:54:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[===Browser launch successful===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest@e720b71]" name="login" is-config="true" duration-ms="4737" started-at="2022-03-17T10:54:42 IST" finished-at="2022-03-17T10:54:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Login successful====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createOrgwithIndustryTypeTest()[pri:0, instance:com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest@e720b71]" name="createOrgwithIndustryTypeTest" duration-ms="21289" started-at="2022-03-17T10:54:47 IST" finished-at="2022-03-17T10:55:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgwithIndustryTypeTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest@e720b71]" name="logout" is-config="true" duration-ms="3527" started-at="2022-03-17T10:55:08 IST" finished-at="2022-03-17T10:55:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[=====logout successful===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest@e720b71]" name="closeTheBrowser" is-config="true" duration-ms="1307" started-at="2022-03-17T10:55:12 IST" finished-at="2022-03-17T10:55:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[====browser close successful===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method status="PASS" signature="closeDB()[pri:0, instance:com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest@e720b71]" name="closeDB" is-config="true" duration-ms="2" started-at="2022-03-17T10:55:33 IST" finished-at="2022-03-17T10:55:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[====Database close successful===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.crm.OrganizationTests.CreateOrgwithIndustryTypeTest -->
+      <class name="com.crm.OrganizationTests.CreateOrgTest">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:com.crm.OrganizationTests.CreateOrgTest@757942a1]" name="LaunchTheBrowser" is-config="true" duration-ms="4262" started-at="2022-03-17T10:55:13 IST" finished-at="2022-03-17T10:55:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[===Browser launch successful===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.OrganizationTests.CreateOrgTest@757942a1]" name="login" is-config="true" duration-ms="4440" started-at="2022-03-17T10:55:17 IST" finished-at="2022-03-17T10:55:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Login successful====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="createOrgTest()[pri:0, instance:com.crm.OrganizationTests.CreateOrgTest@757942a1]" name="createOrgTest" duration-ms="7118" started-at="2022-03-17T10:55:22 IST" finished-at="2022-03-17T10:55:29 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.crm.OrganizationTests.CreateOrgTest.createOrgTest(CreateOrgTest.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgTest-----Test script failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.crm.OrganizationTests.CreateOrgTest@757942a1]" name="logout" is-config="true" duration-ms="2112" started-at="2022-03-17T10:55:29 IST" finished-at="2022-03-17T10:55:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[=====logout successful===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.crm.OrganizationTests.CreateOrgTest@757942a1]" name="closeTheBrowser" is-config="true" duration-ms="784" started-at="2022-03-17T10:55:31 IST" finished-at="2022-03-17T10:55:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[====browser close successful===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.OrganizationTests.CreateOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
